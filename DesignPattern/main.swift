@@ -9,4 +9,7 @@
 import Foundation
 
 
-AdapterPattern.runCase()
+//AdapterPattern.runCase()
+//ProtoTypePattern.runCase()
+FactoryPattern.runCase()
+

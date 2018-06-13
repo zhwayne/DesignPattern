@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B05AD5D11F03AF16001C8942 /* RunCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05AD5D01F03AF16001C8942 /* RunCase.swift */; };
+		B0C315DB20D0C40800006898 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C315DA20D0C40800006898 /* Factory.swift */; };
 		B0CC7D661F03874300132520 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC7D651F03874300132520 /* main.swift */; };
 		B0CC7D6D1F0387FB00132520 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC7D6C1F0387FB00132520 /* Adapter.swift */; };
+		B0F8BD7620D0B9BF0071CB28 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8BD7520D0B9BF0071CB28 /* Prototype.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +28,11 @@
 
 /* Begin PBXFileReference section */
 		B05AD5D01F03AF16001C8942 /* RunCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCase.swift; sourceTree = "<group>"; };
+		B0C315DA20D0C40800006898 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		B0CC7D621F03874300132520 /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CC7D651F03874300132520 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B0CC7D6C1F0387FB00132520 /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		B0F8BD7520D0B9BF0071CB28 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				B05AD5D01F03AF16001C8942 /* RunCase.swift */,
 				B0CC7D651F03874300132520 /* main.swift */,
 				B0CC7D6C1F0387FB00132520 /* Adapter.swift */,
+				B0F8BD7520D0B9BF0071CB28 /* Prototype.swift */,
+				B0C315DA20D0C40800006898 /* Factory.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -128,9 +134,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F8BD7620D0B9BF0071CB28 /* Prototype.swift in Sources */,
 				B0CC7D661F03874300132520 /* main.swift in Sources */,
 				B05AD5D11F03AF16001C8942 /* RunCase.swift in Sources */,
 				B0CC7D6D1F0387FB00132520 /* Adapter.swift in Sources */,
+				B0C315DB20D0C40800006898 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
